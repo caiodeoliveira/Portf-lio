@@ -63,7 +63,8 @@ ol a {
 }
 
 .presentation .title {
-    max-width: 11rem;
+    font-family: 'Raleway', sans-serif;
+    max-width: 12.2rem;
     position: absolute;
     top: 30%;
     left: 8%;
