@@ -6,6 +6,10 @@
 
 /* font-family: 'Montserrat', sans-serif; */
 
+:root {
+    --f-color: #ffffff;
+}
+
 body {
     background-color: #E5E5E5;
     overflow-y: scroll;
@@ -41,4 +45,5 @@ ol {
 
 ol a {
     text-decoration: none;
+    color: #ffffff;
 }
