@@ -22,6 +22,12 @@ body {
     transform: rotate(9.67deg);
 }
 
+nav ol {
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    list-style: none;
+}
+
 ol {
     transform: rotate(-9.67deg);
     display: flex;
@@ -33,8 +39,6 @@ ol {
     justify-content: space-between;
 }
 
-nav ol {
-    color: #ffffff;
-    font-family: 'Montserrat', sans-serif;
-    list-style: none;
+ol a {
+    text-decoration: none;
 }
