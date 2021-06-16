@@ -43,7 +43,21 @@ ol {
     justify-content: space-between;
 }
 
+nav ol li+li+li+li a {
+    color: black;
+    padding: 6px;
+    border-radius: 8px;
+    background-color: white;
+}
+
 ol a {
     text-decoration: none;
     color: var(--f-color);
+}
+
+.rectangle_black img {
+    position: absolute;
+    top: 20%;
+    right: 13%;
+    transform: rotate(-9.67deg);
 }
