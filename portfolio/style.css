@@ -35,7 +35,7 @@ nav ol {
 ol {
     transform: rotate(-9.67deg);
     display: flex;
-    width: 500px;
+    max-width: 500px;
     flex-direction: row;
     position: relative;
     top: 70px;
@@ -60,4 +60,11 @@ ol a {
     top: 20%;
     right: 13%;
     transform: rotate(-9.67deg);
+}
+
+.presentation .title {
+    max-width: 11rem;
+    position: absolute;
+    top: 30%;
+    left: 8%;
 }
