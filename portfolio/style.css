@@ -27,7 +27,7 @@ body {
 }
 
 nav ol {
-    color: #ffffff;
+    color: var(--f-color);
     font-family: 'Montserrat', sans-serif;
     list-style: none;
 }
@@ -45,5 +45,5 @@ ol {
 
 ol a {
     text-decoration: none;
-    color: #ffffff;
+    color: var(--f-color);
 }
