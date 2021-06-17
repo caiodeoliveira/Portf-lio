@@ -67,7 +67,7 @@ ol a {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 2.5rem;
-    max-width: 20.3rem;
+    max-width: 26.1rem;
     position: absolute;
     top: 25%;
     margin-bottom: 63px;
@@ -75,8 +75,8 @@ ol a {
 
 .presentation .title_name {
     font-size: 5rem;
-    max-width: 20.3rem;
+    max-width: 33.3rem;
     position: absolute;
     top: 45%;
-    left: 30%;
+    left: 15%;
 }
