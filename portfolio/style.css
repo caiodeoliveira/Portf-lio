@@ -62,10 +62,21 @@ ol a {
     transform: rotate(-9.67deg);
 }
 
-.presentation .title {
+.presentation .title,
+.presentation .title_name {
     font-family: 'Raleway', sans-serif;
-    max-width: 12.2rem;
+    font-weight: 700;
+    font-size: 2.5rem;
+    max-width: 20.3rem;
     position: absolute;
-    top: 30%;
-    left: 8%;
+    top: 25%;
+    margin-bottom: 63px;
+}
+
+.presentation .title_name {
+    font-size: 5rem;
+    max-width: 20.3rem;
+    position: absolute;
+    top: 45%;
+    left: 30%;
 }
