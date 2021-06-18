@@ -18,7 +18,7 @@ body {
 
 .rectangle_black {
     width: 700.3px;
-    height: 973.99px;
+    height: 800.99px;
     background: black;
     position: absolute;
     right: -85px;
@@ -62,21 +62,54 @@ ol a {
     transform: rotate(-9.67deg);
 }
 
-.presentation .title,
-.presentation .title_name {
+.presentation_container {
+    max-width: 730px;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+}
+
+.presentation .title {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 2.5rem;
     max-width: 26.1rem;
-    position: absolute;
-    top: 25%;
+    margin-top: 15%;
+    margin-left: 50px;
     margin-bottom: 63px;
+}
+
+.presentation .title_name,
+.title_role {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
 }
 
 .presentation .title_name {
     font-size: 5rem;
     max-width: 33.3rem;
-    position: absolute;
-    top: 45%;
-    left: 15%;
+}
+
+.presentation .title_role {
+    color: #909090;
+    font-size: 1.56rem;
+    max-width: 26.1rem;
+    position: relative;
+    top: -70px;
+    right: 50px;
+}
+
+.profile_links {
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 30px;
+    right: 50px;
+}
+
+.profile_links img {
+    padding: 8px;
+    background-color: #b4b3b3;
 }
