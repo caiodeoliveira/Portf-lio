@@ -6,14 +6,17 @@
 
 /* font-family: 'Montserrat', sans-serif; */
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+/* #1D1D1D */
+
 :root {
     --f-color: #ffffff;
 }
 
 body {
-    background-color: #E5E5E5;
-    overflow-y: scroll;
     overflow-x: hidden;
+    background-color: #E5E5E5;
 }
 
 .rectangle_black {
@@ -112,4 +115,16 @@ ol a {
 .profile_links img {
     padding: 8px;
     background-color: #b4b3b3;
+}
+
+footer {
+    position: absolute;
+    bottom: -200px;
+    right: 0.5px;
+    width: 1350px;
+    height: 150px;
+    background-color: #1D1D1D;
+    color: white;
+    font-size: 1.4rem;
+    font-family: 'Open Sans', sans-serif;
 }
