@@ -1,0 +1,119 @@
+:root {
+    --f-color: #ffffff;
+}
+
+body {
+    background: url('assets/home-bg-img.png');
+    overflow-x: hidden;
+    background-color: #E5E5E5;
+}
+
+.rectangle_black {
+    width: 700.3px;
+    height: 800.99px;
+    background: black;
+    position: absolute;
+    right: -85px;
+    top: -50px;
+    transform: rotate(9.67deg);
+}
+
+nav ol {
+    color: var(--f-color);
+    font-family: 'Montserrat', sans-serif;
+    list-style: none;
+}
+
+ol {
+    transform: rotate(-9.67deg);
+    display: flex;
+    max-width: 500px;
+    flex-direction: row;
+    position: relative;
+    top: 70px;
+    right: 20px;
+    justify-content: space-between;
+}
+
+nav ol li+li+li+li a {
+    color: black;
+    padding: 6px;
+    border-radius: 8px;
+    background-color: white;
+}
+
+ol a {
+    text-decoration: none;
+    color: var(--f-color);
+}
+
+.rectangle_black img {
+    position: absolute;
+    top: 20%;
+    right: 13%;
+    transform: rotate(-9.67deg);
+}
+
+.presentation_container {
+    max-width: 730px;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+}
+
+.presentation .title {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    max-width: 26.1rem;
+    margin-top: 15%;
+    margin-left: 50px;
+    margin-bottom: 63px;
+}
+
+.presentation .title_name,
+.title_role {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+.presentation .title_name {
+    font-size: 5rem;
+    max-width: 33.3rem;
+}
+
+.presentation .title_role {
+    color: #909090;
+    font-size: 1.56rem;
+    max-width: 26.1rem;
+    position: relative;
+    top: -70px;
+    right: 50px;
+}
+
+.profile_links {
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 30px;
+    right: 50px;
+}
+
+.profile_links img {
+    padding: 8px;
+    background-color: #b4b3b3;
+}
+
+footer {
+    position: absolute;
+    bottom: -200px;
+    right: 0.5px;
+    width: 1350px;
+    height: 150px;
+    background-color: #1D1D1D;
+    color: white;
+    font-size: 1.4rem;
+    font-family: 'Open Sans', sans-serif;
+}
