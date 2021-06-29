@@ -1,9 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+
+/* font-family: 'Raleway', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+/* font-family: 'Montserrat', sans-serif; */
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
 :root {
     --f-color: #ffffff;
 }
 
 body {
-    background: url('assets/home-bg-img.png');
+    background: url('');
     overflow-x: hidden;
     background-color: #E5E5E5;
 }
