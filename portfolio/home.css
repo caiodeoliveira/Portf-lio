@@ -18,6 +18,10 @@
     --f-color: #ffffff;
 }
 
+html {
+    font-size: 62.5%;
+}
+
 body {
     background: url('');
     overflow-x: hidden;
