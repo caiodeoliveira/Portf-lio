@@ -67,8 +67,7 @@ header nav a {
     color: var(--f-color);
 }
 
-
-/* header nav a+a+a+a {
+header nav a+a+a+a {
     background-color: white;
-    color: ;
-} */
+    color: var(--black-color);
+}
