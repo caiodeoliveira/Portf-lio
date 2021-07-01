@@ -35,3 +35,28 @@ body {
     height: 100vh;
     background: var(--britghtGrey-color);
 }
+
+header {
+    text-align: right;
+}
+
+header.rectangle_container {
+    transform: rotate(9.67deg);
+    position: absolute;
+    top: -19rem;
+    left: 98rem;
+    width: 180rem;
+    height: 137rem;
+}
+
+header nav {
+    display: flex;
+    width: 63rem;
+    height: 4.6rem;
+    justify-content: space-evenly;
+    font-size: 1.7rem;
+    position: absolute;
+    top: 6.2rem;
+    right: 29.2rem;
+    margin: 0.8rem;
+}
