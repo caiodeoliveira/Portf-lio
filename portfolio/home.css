@@ -53,7 +53,7 @@ header nav {
     display: flex;
     width: 63rem;
     height: 4.6rem;
-    justify-content: space-evenly;
+    justify-content: space-between;
     font-size: 1.7rem;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
@@ -67,7 +67,6 @@ header nav a {
     color: var(--f-color);
 }
 
-header nav a+a+a+a {
-    background-color: white;
+nav span a {
     color: var(--black-color);
 }
