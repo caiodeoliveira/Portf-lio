@@ -34,6 +34,7 @@ body {
     width: 100vw;
     height: 100vh;
     background: var(--britghtGrey-color);
+    overflow-x: hidden;
 }
 
 header {
