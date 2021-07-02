@@ -6,13 +6,6 @@
 
 /* font-family: 'Montserrat', sans-serif; */
 
-
-/* body {
-    background: url('');
-    /* overflow-x: hidden;
-    background-color: var(--f-color);
-} */
-
 * {
     margin: 0;
     border: 0;
@@ -40,6 +33,11 @@ body {
     background: var(--britghtGrey-color);
 }
 
+#home .left_side {
+    position: absolute;
+    top: 34rem;
+}
+
 header {
     text-align: right;
 }
@@ -64,7 +62,7 @@ header nav a {
     color: var(--f-color);
 }
 
-header nav div {
+header nav a+a+a+a {
     display: flex;
     background-color: var(--f-color);
     font-style: normal;
@@ -95,10 +93,4 @@ header.rectangle_container {
     left: 98rem;
     width: 180rem;
     height: 137rem;
-}
-
-header div img+img {
-    position: absolute;
-    width: 78rem;
-    height: 87rem;
 }
