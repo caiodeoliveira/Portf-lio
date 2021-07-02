@@ -33,21 +33,15 @@ html {
 body {
     width: 100vw;
     height: 100vh;
-    background: var(--britghtGrey-color);
     overflow-x: hidden;
+}
+
+#home {
+    background: var(--britghtGrey-color);
 }
 
 header {
     text-align: right;
-}
-
-header.rectangle_container {
-    transform: rotate(9.67deg);
-    position: absolute;
-    top: -19rem;
-    left: 98rem;
-    width: 180rem;
-    height: 137rem;
 }
 
 header nav {
@@ -91,4 +85,20 @@ nav div a {
     font-size: 1.5rem;
     font-weight: bold;
     color: var(--black-color);
+}
+
+header.rectangle_container {
+    background-image: url('/assets/Rectangle.png');
+    transform: rotate(9.67deg);
+    position: relative;
+    top: -19rem;
+    left: 98rem;
+    width: 180rem;
+    height: 137rem;
+}
+
+header div img+img {
+    position: absolute;
+    width: 78rem;
+    height: 87rem;
 }
