@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700;800&display=swap');
 
 /* font-family: 'Raleway', sans-serif; */
 
@@ -49,9 +49,19 @@ body {
 }
 
 .left_side h1 {
+    position: relative;
+    left: 5rem;
     font-size: 8rem;
     font-weight: 700;
     padding-bottom: 2.9rem;
+}
+
+.left_side p {
+    position: relative;
+    left: 7rem;
+    color: #919191;
+    font-size: 2.5rem;
+    font-weight: 800;
 }
 
 header {
@@ -69,9 +79,8 @@ header nav {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     position: absolute;
-    top: 6.2rem;
+    top: 6.5rem;
     right: 29.2rem;
-    margin: 0.8rem;
 }
 
 header nav a {
