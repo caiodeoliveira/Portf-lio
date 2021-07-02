@@ -45,12 +45,13 @@ body {
 .left_side h3 {
     font-size: 4rem;
     font-weight: 700;
-    margin-bottom: 5.9rem;
+    padding-bottom: 5.9rem;
 }
 
 .left_side h1 {
-    font-size: 4rem;
+    font-size: 8rem;
     font-weight: 700;
+    padding-bottom: 2.9rem;
 }
 
 header {
