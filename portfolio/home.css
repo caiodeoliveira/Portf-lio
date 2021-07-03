@@ -64,6 +64,10 @@ body {
     font-weight: 800;
 }
 
+.left_side div footer {
+    display: flex;
+}
+
 header {
     text-align: right;
 }
