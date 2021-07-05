@@ -65,9 +65,9 @@ body {
     margin-bottom: 12.8rem;
 }
 
-.left_side div footer {
+.left_side div {
     display: flex;
-    width: 12rem;
+    width: 50rem;
 }
 
 section .home_footer_container {
@@ -79,17 +79,17 @@ section .home_footer_container {
 .github_img {
     width: 3.4rem;
     height: 3.4rem;
-    /* position: relative;
-    top: 4.5rem;
-    left: 1.6rem; */
+    position: relative;
+    top: -2rem;
+    left: 5.4rem;
 }
 
 .linkedin_img {
     width: 3.8rem;
     height: 3.8rem;
-    /* position: relative;
-    top: 1rem;
-    left: 5.3rem; */
+    position: relative;
+    top: -1.5rem;
+    left: 5.6rem;
 }
 
 header {
