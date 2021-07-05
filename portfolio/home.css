@@ -62,10 +62,34 @@ body {
     color: #919191;
     font-size: 2.5rem;
     font-weight: 800;
+    margin-bottom: 12.8rem;
 }
 
 .left_side div footer {
     display: flex;
+    width: 12rem;
+}
+
+section .home_footer_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.github_img {
+    width: 3.4rem;
+    height: 3.4rem;
+    /* position: relative;
+    top: 4.5rem;
+    left: 1.6rem; */
+}
+
+.linkedin_img {
+    width: 3.8rem;
+    height: 3.8rem;
+    /* position: relative;
+    top: 1rem;
+    left: 5.3rem; */
 }
 
 header {
