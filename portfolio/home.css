@@ -95,6 +95,7 @@ section .home_footer_container {
     position: relative;
     top: -1.5rem;
     left: 5.6rem;
+    margin-left: 4rem;
 }
 
 header {
