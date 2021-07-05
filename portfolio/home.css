@@ -76,6 +76,11 @@ section .home_footer_container {
     justify-content: center;
 }
 
+.home_footer_container footer {
+    position: relative;
+    right: 5rem;
+}
+
 .github_img {
     width: 3.4rem;
     height: 3.4rem;
