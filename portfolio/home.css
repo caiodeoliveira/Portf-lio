@@ -76,7 +76,7 @@ section .home_footer_container {
     justify-content: center;
 }
 
-.home_footer_container footer {
+.home_footer_container nav {
     position: relative;
     right: 5rem;
 }
