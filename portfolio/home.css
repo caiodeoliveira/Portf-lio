@@ -17,7 +17,7 @@
 html {
     --black-color: #000000;
     --britghtGrey-color: #d7d7d7;
-    --mediunGrey-color: #c4c4c4;
+    --mediumGrey-color: #c4c4c4;
     --darkGrey-color: #909090;
     --f-color: #ffffff;
     font-size: 62.5%;
@@ -38,19 +38,11 @@ body {
     height: 35rem;
     position: absolute;
     top: 35rem;
-    left: 9rem;
+    left: 30rem;
     font-family: 'Raleway', sans-serif;
 }
 
-.left_side h3 {
-    font-size: 4rem;
-    font-weight: 700;
-    padding-bottom: 5.9rem;
-}
-
 .left_side h1 {
-    position: relative;
-    left: 5rem;
     font-size: 8rem;
     font-weight: 700;
     padding-bottom: 2.9rem;
@@ -58,7 +50,7 @@ body {
 
 .left_side p {
     position: relative;
-    left: 7rem;
+    left: 2rem;
     color: #919191;
     font-size: 2.5rem;
     font-weight: 800;
@@ -78,7 +70,7 @@ section .home_footer_container {
 
 .home_footer_container nav {
     position: relative;
-    right: 5rem;
+    left: -10rem;
 }
 
 .github_img {
@@ -94,8 +86,7 @@ section .home_footer_container {
     height: 3.8rem;
     position: relative;
     top: -1.5rem;
-    left: 5.6rem;
-    margin-left: 4rem;
+    left: 5.7rem;
 }
 
 header {
@@ -152,4 +143,9 @@ header.rectangle_container {
     left: 98rem;
     width: 180rem;
     height: 137rem;
+}
+
+footer .home_footer_img {
+    position: relative;
+    top: -0.2rem;
 }
