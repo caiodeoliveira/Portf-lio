@@ -164,4 +164,5 @@ footer .it_berries_grid h3 {
     color: var(--f-color);
     font-size: 3rem;
     letter-spacing: 0.18em;
+    line-height: 3.7rem;
 }
