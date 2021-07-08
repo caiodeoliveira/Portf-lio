@@ -156,6 +156,10 @@ footer .bg_home_footer {
 
 footer .bg_home_footer .it_berries_grid {
     display: grid;
+    grid-template-columns: 1fr;
+    width: 192rem;
+    height: 31rem;
+    padding: 5.4rem 0 10rem 10rem;
 }
 
 footer .it_berries_grid h3 {
