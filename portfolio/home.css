@@ -178,4 +178,5 @@ footer .it_berries_grid h3 {
 footer .it_berries_grid p {
     color: var(--f-color);
     font-family: 'Open Sans', sans-serif;
+    font-size: 2.1rem;
 }
