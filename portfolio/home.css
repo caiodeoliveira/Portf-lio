@@ -153,3 +153,11 @@ footer .bg_home_footer {
     top: -0.5rem;
     background-color: #1d1d1d;
 }
+
+footer .bg_home_footer .it_berries_grid {
+    display: grid;
+}
+
+footer .it_berries_grid h3 {
+    color: var(--f-color);
+}
