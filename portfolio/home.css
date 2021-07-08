@@ -181,3 +181,7 @@ footer .it_berries_grid p {
     font-family: 'Open Sans', sans-serif;
     font-size: 2.1rem;
 }
+
+footer .it_berries_grid img {
+    width: 38rem;
+}
