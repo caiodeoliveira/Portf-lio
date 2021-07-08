@@ -6,6 +6,7 @@
 
 /* font-family: 'Montserrat', sans-serif; */
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 * {
     margin: 0;
     border: 0;
@@ -169,4 +170,8 @@ footer .it_berries_grid h3 {
     font-size: 3rem;
     letter-spacing: 0.18em;
     line-height: 3.7rem;
+}
+
+footer .it_berries_grid p {
+    font-family: ;
 }
