@@ -182,6 +182,9 @@ footer .it_berries_grid p {
     font-size: 2.1rem;
 }
 
-footer .it_berries_grid img {
+.it_berries_grid span p {
+    font-size: 28rem;
     width: 38rem;
+    position: absolute;
+    right: 1rem;
 }
