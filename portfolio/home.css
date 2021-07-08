@@ -160,6 +160,7 @@ footer .bg_home_footer .it_berries_grid {
 
 footer .it_berries_grid h3 {
     font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
     color: var(--f-color);
     font-size: 3rem;
 }
