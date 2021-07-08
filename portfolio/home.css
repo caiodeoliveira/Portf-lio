@@ -145,7 +145,11 @@ header.rectangle_container {
     height: 137rem;
 }
 
-footer .home_footer_img {
+footer .bg_home_footer {
+    width: 192rem;
+    height: 31rem;
     position: relative;
-    top: -0.2rem;
+    left: 0rem;
+    top: -0.5rem;
+    background-color: #1d1d1d;
 }
