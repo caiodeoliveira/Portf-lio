@@ -176,5 +176,6 @@ footer .it_berries_grid h3 {
 }
 
 footer .it_berries_grid p {
-    font-family: ;
+    color: var(--f-color);
+    font-family: 'Open Sans', sans-serif;
 }
