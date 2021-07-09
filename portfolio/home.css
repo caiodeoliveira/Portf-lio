@@ -197,10 +197,13 @@ footer .it_berries_grid p {
 }
 
 .it_berries_grid span p {
+    font-family: 'Varela', sans-serif;
     font-size: 28rem;
     width: 38rem;
     height: 27rem;
     line-height: 36rem;
+    letter-spacing: 0.3rem;
+    transform: rotate(23.89deg);
     position: absolute;
     right: 1rem;
 }
