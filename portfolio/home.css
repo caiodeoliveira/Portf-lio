@@ -197,6 +197,7 @@ footer .it_berries_grid p {
 }
 
 .it_berries_grid span p {
+    color: var(--black-color);
     font-family: 'Varela', sans-serif;
     font-size: 28rem;
     width: 38rem;
