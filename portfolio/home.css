@@ -222,6 +222,7 @@ footer .it_berries_grid p {
 .about_title_container {}
 
 .about_title_container h1 {
+    color: rgba(0, 0, 0, 1);
     font-family: 'Montserrat', sans-serif;
     font-size: 3rem;
 }
