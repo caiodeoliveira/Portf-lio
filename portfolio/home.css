@@ -228,3 +228,7 @@ footer .it_berries_grid p {
     line-height: 3.8rem;
     letter-spacing: 0.35538em;
 }
+
+.about_title_container p {
+    font-size: 1.5rem;
+}
