@@ -211,3 +211,14 @@ footer .it_berries_grid p {
     border: 1.8rem solid var(--black-color);
     border-radius: 0rem 8rem 0rem 8rem;
 }
+
+
+/* Página About */
+
+#about {
+    background-color: #1A1515;
+}
+
+.about_title_container {}
+
+.about_title_container h1 {}
