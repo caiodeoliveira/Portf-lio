@@ -223,6 +223,7 @@ footer .it_berries_grid p {
     border: 1rem solid var(--black-color);
     width: 40rem;
     height: 10rem;
+    margin-bottom: 7.1rem;
 }
 
 .about_title_container h1 {
