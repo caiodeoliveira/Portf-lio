@@ -186,15 +186,6 @@ footer .it_berries_grid p {
     font-size: 2.1rem;
 }
 
-
-/* .it_berries_grid span img {
-    width: 38rem;
-    height: 36rem;
-    position: absolute;
-    left: 149rem;
-    top: -4rem;
-} */
-
 .it_berries_grid span p {
     color: var(--black-color);
     font-family: 'Varela', sans-serif;
@@ -216,18 +207,16 @@ footer .it_berries_grid p {
 /* Página About */
 
 #about {
-    /* position: absolute;
-    top: ; */
+    position: relative;
+    width: 200rem;
     background: radial-gradient(50% 50% at 50% 50%, rgba(26, 21, 21, 0) 0%, rgba(1, 1, 1, 0.16) 100%);
     display: grid;
-    align-items: center;
 }
 
 .about_title_container {
-    width: 200rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
 }
 
 .about_title_container h1 {
