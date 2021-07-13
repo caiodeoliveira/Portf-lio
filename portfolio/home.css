@@ -42,16 +42,16 @@ body {
 }
 
 #home .left_side {
-    width: 55rem;
-    height: 35rem;
+    width: 46rem;
+    height: 18rem;
     position: absolute;
-    top: 35rem;
-    left: 30rem;
+    top: 20rem;
+    left: 16rem;
     font-family: 'Raleway', sans-serif;
 }
 
 .left_side h1 {
-    font-size: 8rem;
+    font-size: 6rem;
     font-weight: 700;
     padding-bottom: 2.9rem;
 }
@@ -73,29 +73,32 @@ body {
 section .home_footer_container {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
+    margin-left: 3rem;
 }
 
 .home_footer_container nav {
     position: relative;
-    left: -10rem;
+    top: -3.5rem;
 }
 
 .github_img {
     width: 3.4rem;
     height: 3.4rem;
     position: relative;
-    top: -2rem;
-    left: 5.4rem;
+    top: -1.3rem;
+    left: 4.9rem;
 }
 
 .linkedin_img {
     width: 3.8rem;
     height: 3.8rem;
     position: relative;
-    top: -1.5rem;
-    left: 5.7rem;
+    top: -1.0rem;
+    left: 5.1rem;
+    margin-left: 3.5rem;
 }
+
 
 header {
     text-align: right;
@@ -103,7 +106,7 @@ header {
 
 header nav {
     display: flex;
-    width: 63rem;
+    width: 54rem;
     height: 4.6rem;
     line-height: 2.1rem;
     justify-content: space-between;
@@ -112,8 +115,8 @@ header nav {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     position: absolute;
-    top: 6.5rem;
-    right: 29.2rem;
+    top: 4.4rem;
+    left: 70rem;
 }
 
 header nav a {
@@ -143,13 +146,13 @@ nav div a {
     color: var(--black-color);
 }
 
-header.rectangle_container {
-    background-image: url('/assets/Rectangle.png');
+header img {
+    background: var(--black-color);
     transform: rotate(9.67deg);
     position: relative;
     top: -19rem;
-    left: 98rem;
-    width: 180rem;
+    left: 60rem;
+    width: 168rem;
     height: 137rem;
 }
 
